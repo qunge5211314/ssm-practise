@@ -1,0 +1,4 @@
+注意：
+    使用注解进行开发时，需要在applicationContext.xml中配置组件扫描，
+    作用是指定哪个包及其子包下的Bean需要进行扫描以便识别使用注解配置的类、字段和方法
+    <context:component-scan base-package="cn.itcast"></context:component-scan>
