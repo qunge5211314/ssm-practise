@@ -15,6 +15,6 @@ public class SpringAopTest {
 
     @Test
     public void test1() {
-        targetService.save();
+        targetService.save("测试，哈哈");
     }
 }

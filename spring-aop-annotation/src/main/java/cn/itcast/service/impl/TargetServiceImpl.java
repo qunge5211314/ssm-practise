@@ -6,7 +6,9 @@ import org.springframework.stereotype.Service;
 @Service
 public class TargetServiceImpl implements TargetService {
     @Override
-    public void save() {
+    public String save(String s) {
+        System.out.println(s);
         System.out.println("save running...........");
+        return s;
     }
 }

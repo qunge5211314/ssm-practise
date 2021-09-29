@@ -1,5 +1,5 @@
 package cn.itcast.service;
 
 public interface TargetService {
-    void save();
+    String save(String s);
 }
