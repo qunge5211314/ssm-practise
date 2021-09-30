@@ -11,7 +11,7 @@ import org.springframework.stereotype.Component;
 @Order(1)
 public class MyAspect {
     // 配置前置通知
-    @Before("execution(* cn.itcast.service.impl.*.*(..))")
+    @Before("execution(* cn.itcast.service..*.*(..))")
     public void before(){
         System.out.println("前置增强........");
     }

@@ -10,7 +10,7 @@ import org.springframework.stereotype.Component;
 @Order(2)
 public class MyAspect2 {
     // 配置环绕通知
-    @Around("execution(* cn.itcast.service.impl.*.*(..))")
+    @Around("execution(* cn.itcast.service..*.*(..))")
 
     public Object around(ProceedingJoinPoint joinPoint) throws Throwable {
         Object obj = null;
